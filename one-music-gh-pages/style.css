@@ -1673,6 +1673,17 @@ img {
   .single-web-icon:hover {
     box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.15); }
 
+ .track-list-number{
+  font-weight: bold;
+  font-size:5rem;
+ }
+ .btn-custom{
+  min-width: 150px;
+ 
+ }
+ .oneMusic-btn:hover .btn-lien{
+  color: white;
+ }
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
