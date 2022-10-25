@@ -1684,6 +1684,14 @@ img {
  .oneMusic-btn:hover .btn-lien{
   color: white;
  }
+ .list-bg{
+  background-color: #363636;
+  color: white;
+  padding: 2rem;
+ }
+ .track-list li{
+  margin-bottom: 1rem;
+ }
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
