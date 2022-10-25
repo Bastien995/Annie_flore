@@ -494,7 +494,7 @@ img {
         height: 70px; } }
 
 .classy-navbar .nav-brand {
-  max-width: 130px; }
+  max-width: 200px; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breakpoint-on .classy-navbar .classy-menu {
@@ -1684,6 +1684,20 @@ img {
  .oneMusic-btn:hover .btn-lien{
   color: white;
  }
+ .list-bg{
+  background-color: #363636;
+  color: white;
+  padding: 2rem;
+ }
+ .track-list li{
+  margin-bottom: 1rem;
+ }
+@media screen and (max-width: 800px){
+  .mobile{
+    flex-direction: column!important;
+  }
+}
+
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
