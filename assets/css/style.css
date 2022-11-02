@@ -36,7 +36,7 @@ time, mark, audio, video {
 body {
   font-family: "Roboto-Regular";
   font-size: 16px; 
-  background-image: url(../images/A42391A3-DD30-4DF4-8A87-0F379004CDAF.jpeg);
+  background: #9f553c;
   background-size: cover;
 }
 
@@ -51,7 +51,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0; }
   .card img {
     border-radius: 0; }
-
+.card-img-overlay{
+  background: rgba(0, 0, 0, 0.6);
+}
 header .card a, .vr-gallery a.btn {
   background-color: #9f553c;
   width: 200px;
@@ -68,8 +70,7 @@ header {
   text-align: center;
   padding: 20px 0;
   padding-bottom: 50px; }
-  header .bg-cover {
-    background: rgba(0, 0, 0, 0.7); }
+
   header .input-group input {
     display: none; }
   header h2.logo {
@@ -81,7 +82,7 @@ header {
     header .nav-fill a {
       color: #ffffff; }
     header .nav-fill li:hover a {
-      color: #9f553c; }
+      color: #000; }
   header .navbar li.nav-item a.nav-link {
     font-family: "Montserrat-Bold";
     color: #ffffff;
@@ -172,7 +173,7 @@ header {
     footer .nav-fill a {
       color: #ffffff; }
     footer .nav-fill li:hover a {
-      color: #9f553c; }
+      color: #000; }
   footer .copyright {
     padding: 34px 0;
     background-color: rgba(0, 0, 0, 0.451); }
